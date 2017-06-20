@@ -1,0 +1,163 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:scrollbars="horizontal"
+    tools:context=".activity.DetailZvierataActivity"
+    android:id="@+id/scrollView">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView"/>
+
+            <TextView
+                style= "@style/Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:text="@string/id"/>
+
+            <TextView
+                style= "@style/Text"
+                android:id="@+id/idTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style= "@style/Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/meno"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                style= "@style/Text"
+                android:id="@+id/menoTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+            <TextView
+                style= "@style/Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/druh"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                style= "@style/Text"
+                android:id="@+id/druhTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+            <TextView
+                style= "@style/Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rasa"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                style= "@style/Text"
+                android:id="@+id/rasaTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style= "@style/Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rok"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                style= "@style/Text"
+                android:id="@+id/rokTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style= "@style/Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pohlavie"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                style= "@style/Text"
+                android:id="@+id/pohlavieTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                style= "@style/Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/popis"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                style= "@style/Text"
+                android:id="@+id/popisTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                style= "@style/Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/umiestnenie"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                style= "@style/Text"
+                android:id="@+id/miestoTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/editFAB"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:padding="16dp"
+            android:scaleType="fitXY"
+            android:src="@android:drawable/ic_menu_edit"
+            android:tint="@android:color/white"
+            app:layout_anchor="@id/linearLayout"
+            app:layout_anchorGravity="bottom|right" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/galeriaFAB"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:padding="16dp"
+            android:scaleType="fitXY"
+            android:onClick="otvorGaleriu"
+            android:src="@android:drawable/ic_menu_gallery"
+            android:tint="@android:color/white"
+            app:layout_anchor="@id/imageView"
+            app:layout_anchorGravity="bottom|right" />
+
+
+    </android.support.design.widget.CoordinatorLayout>
+</ScrollView>

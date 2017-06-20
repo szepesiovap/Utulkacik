@@ -1,0 +1,153 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:scrollbars="horizontal">
+    <LinearLayout
+        android:id="@+id/activity_pridaj_zviera"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        tools:context="sk.upjs.ics.utulkacik.activity.ZvieraActivity">
+
+        <TextView
+            style= "@style/Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/menoTextView"
+            android:text="@string/meno"/>
+
+        <EditText
+            style= "@style/Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/menoEditText"
+            android:hint="@string/menoHint"/>
+
+        <TextView
+            style= "@style/Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rokTextView"
+            android:text="@string/rok"/>
+
+        <Spinner
+            style= "@style/Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rokSpinner">
+        </Spinner>
+
+        <TextView
+            style= "@style/Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pohlavieTextView"
+            android:text="@string/pohlavie"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/pohlavieRadioGroup">
+            <RadioButton
+                style= "@style/Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/samec"
+                android:id="@+id/samecRadioButton"/>
+            <RadioButton
+                style= "@style/Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/samica"
+                android:id="@+id/samicaRadioButton"/>
+        </RadioGroup>
+
+        <TextView
+            style= "@style/Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/druhTextView"
+            android:text="@string/druh"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/druhRadioGroup"
+            android:orientation="vertical">
+            <RadioButton
+                style= "@style/Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pes"
+                android:id="@+id/pesRadioButton"/>
+            <RadioButton
+                style= "@style/Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/macka"
+                android:id="@+id/mackaRadioButton"/>
+            <RadioButton
+                style= "@style/Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ine"
+                android:id="@+id/ineZvieraRadioButton"/>
+        </RadioGroup>
+
+
+
+        <TextView
+            style= "@style/Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rasaTextView"
+            android:text="@string/rasa"/>
+
+        <EditText
+            style= "@style/Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rasaEditText"
+            android:hint="@string/rasaHint"/>
+
+        <TextView
+            style= "@style/Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/popisTextView"
+            android:text="@string/popis"/>
+
+        <EditText
+            style= "@style/Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/popisEditText"
+            android:hint="@string/popisHint"/>
+
+
+        <TextView
+            style= "@style/Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/umiestnenieTextView"
+            android:text="@string/umiestnenie"/>
+
+        <Spinner
+            style= "@style/Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/docaskaSpinner">
+        </Spinner>
+
+    </LinearLayout>
+</ScrollView>

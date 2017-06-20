@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".activity.DetailDocaskaraActivity"
+    android:id="@+id/detailDocaskaraActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:scrollbars="horizontal">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout"
+            android:orientation="vertical">
+
+            <TextView
+                style= "@style/Text"
+                android:id="@+id/menoTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/meno"/>
+
+            <EditText
+                style= "@style/Text"
+                android:id="@+id/menoEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/menoDocHint"/>
+
+            <TextView
+                style= "@style/Text"
+                android:id="@+id/kontaktTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/kontakt" />
+
+            <EditText
+                style= "@style/Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/kontaktEditText"
+                android:hint="@string/kontaktHint" />
+
+            <TextView
+                style= "@style/Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/prideleneZvierataTextView"
+                android:hint="@string/prideleneZvierata"/>
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:id="@+id/zvierataListView"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="bottom"/>
+
+        </LinearLayout>
+    </android.support.design.widget.CoordinatorLayout>
+</LinearLayout>

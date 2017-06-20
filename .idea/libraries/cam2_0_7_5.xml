@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="cam2-0.7.5">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/e9fa187a656584e388b6040249b70596461ee26b/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/e9fa187a656584e388b6040249b70596461ee26b/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.commonsware.cwac/cam2/0.7.5/8355bc08bfba1f00d69af760616fdfd7d2f61b54/cam2-0.7.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

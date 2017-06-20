@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Utulkacik</string>
+    <string-array name="obce">
+        <item>Košice</item>
+        <item>Trebišov</item>
+        <item>Sobrance</item>
+        <item>Prešov</item>
+    </string-array>
+
+    <string name="id">Id: </string>
+    <string name="uloz">Ulož</string>
+    <string name="meno">Meno: </string>
+    <string name="menoHint">Zadaj meno zvieratka</string>
+    <string name="rok">Rok narodenia: </string>
+    <string name="pohlavie">Pohlavie: </string>
+    <string name="samec">Samec</string>
+    <string name="samica">Samica</string>
+    <string name="druh">Druh zvieraťa: </string>
+    <string name="pes">Pes</string>
+    <string name="macka">Mačka</string>
+    <string name="ine">Iné zvieratko</string>
+    <string name="rasa">Rasa: </string>
+    <string name="rasaHint">Upresni rasu alebo typ zvieratka</string>
+    <string name="popis">Popis: </string>
+    <string name="popisHint">Napíš niečo o zvieratku</string>
+    <string name="umiestnenie">Umiestnenie: </string>
+    <string name="utulok">Utulok</string>
+    <string name="docaska">Dočasná opatera</string>
+
+    <string name="menoDocHint">Zadaj meno dočaskára</string>
+    <string name="kontakt">Kontakt: </string>
+    <string name="kontaktHint">Zadaj kontakt na dočaskára</string>
+    <string name="ulozDoc">Ulož zmeny</string>
+    <string name="prideleneZvierata">Pridelené zvieratká v DO : </string>
+
+    <string name="zviera">zviera</string>
+    <string name="docaskar">docaskar</string>
+    <string name="cislo">cislo</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+    <string name="selection">selection</string>
+    <string name="selectionArgs">selectionArgs</string>
+    <string name="projection">projection</string>
+    <string name="sortOrder">sortOrder</string>
+
+    <string name="zvierata">Zvieratá</string>
+    <string name="docaskari">Dočaskári</string>
+
+    <string-array name="navigationList">
+        <item>@string/zvierata</item>
+        <item>@string/docaskari</item>
+    </string-array>
+
+
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

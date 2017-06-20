@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/patka/.gradle/caches/modules-2/files-2.1/org.greenrobot/eventbus/3.0.0/ddd99896e9569eaababbe81b35d80e1b91c4ad85/eventbus-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="/media/patka/5A961F653C3478AD/UPJS/2. rocnik/ANDROID/AndroidStudioProjects/Utulkacik/app/build/intermediates/pre-dexed/debug/eventbus-3.0.0_eb0710b3975e548f6f45b15be7575beffb322eca.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/media/patka/5A961F653C3478AD/UPJS/2. rocnik/ANDROID/AndroidStudioProjects/Utulkacik/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/media/patka/5A961F653C3478AD/UPJS/2. rocnik/ANDROID/AndroidStudioProjects/Utulkacik/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_343b74cd9f5a23944bb7a568a189b27d61886d03/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/patka/.gradle/caches/modules-2/files-2.1/org.greenrobot/eventbus/3.0.0/ddd99896e9569eaababbe81b35d80e1b91c4ad85/eventbus-3.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="/media/patka/5A961F653C3478AD/UPJS/2. rocnik/ANDROID/AndroidStudioProjects/Utulkacik/app/build/intermediates/transforms/dex/debug/folders/1000/10/eventbus-3.0.0_eb0710b3975e548f6f45b15be7575beffb322eca/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/patka/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/media/patka/5A961F653C3478AD/UPJS/2. rocnik/ANDROID/AndroidStudioProjects/Utulkacik/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_a1add8d5974382e9d6773590169de83a2a0d9171/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/patka/.android/build-cache/7f702aa9a75152b815081ce323f4268e549ffbc4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1c3b9743fe8bb166a90a7e98b9b9f1f8021d80cd">
+        <dex dex="/media/patka/5A961F653C3478AD/UPJS/2. rocnik/ANDROID/AndroidStudioProjects/Utulkacik/app/build/intermediates/pre-dexed/debug/classes_a36f7d57af765f4860925c72f12160b1336712c5.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/patka/.android/build-cache/e9fa187a656584e388b6040249b70596461ee26b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="face4f52c5428b376f5ff01122a1086de0f6648e">
+        <dex dex="/media/patka/5A961F653C3478AD/UPJS/2. rocnik/ANDROID/AndroidStudioProjects/Utulkacik/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_eb540f4e7b538a2b72617e6fa9705fb888c63ca8/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/patka/.android/build-cache/e9fa187a656584e388b6040249b70596461ee26b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="face4f52c5428b376f5ff01122a1086de0f6648e">
+        <dex dex="/media/patka/5A961F653C3478AD/UPJS/2. rocnik/ANDROID/AndroidStudioProjects/Utulkacik/app/build/intermediates/pre-dexed/debug/classes_eb540f4e7b538a2b72617e6fa9705fb888c63ca8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/patka/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/media/patka/5A961F653C3478AD/UPJS/2. rocnik/ANDROID/AndroidStudioProjects/Utulkacik/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_a1add8d5974382e9d6773590169de83a2a0d9171.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/media/patka/5A961F653C3478AD/UPJS/2. rocnik/ANDROID/AndroidStudioProjects/Utulkacik/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4e189c7f4de5a00b0c01f6931b57937b7f6405b0">
+        <dex dex="/media/patka/5A961F653C3478AD/UPJS/2. rocnik/ANDROID/AndroidStudioProjects/Utulkacik/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_13cf2f097e532ea3e3a9835d619ab67c31e8f9bc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/patka/.android/build-cache/7f702aa9a75152b815081ce323f4268e549ffbc4/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1c3b9743fe8bb166a90a7e98b9b9f1f8021d80cd">
+        <dex dex="/media/patka/5A961F653C3478AD/UPJS/2. rocnik/ANDROID/AndroidStudioProjects/Utulkacik/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a36f7d57af765f4860925c72f12160b1336712c5/classes.dex" />
+    </item>
+
+</items>
